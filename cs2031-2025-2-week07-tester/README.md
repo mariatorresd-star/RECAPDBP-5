@@ -12,7 +12,7 @@ This project is meant to test week 7 exercise and verify how many goals were suc
 $ java -jar week07-tester.jar test -u http://localhost:8080
 ```
 
-## User Needs
+## domain.User Needs
 
 You, as the main development team for Fly Away Travel, are in charge of creating a new API to book air tickets.
 
@@ -55,7 +55,7 @@ Must-Have (+0.2)
 
 ```java
 // basic schema
-User {
+domain.User {
     String firstName;
     String lastName;
     String email;
